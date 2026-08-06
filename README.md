@@ -1,5 +1,1 @@
-Practical-1 : Project Initiation, Requirement Analysis, Sitemap, Wireframe, and GitHub Setup
 
-Problem Definition : Initiate the semester-long StudentHub portal by identifying the problem scope,                         user roles, key modules, navigation flow, and minimum 10 pages. Create a sitemap,                      low fidelity wireframe, project folder structure, README file, and GitHub                              repository.
-
-Learnings: Learned about platforms like Draw.io, Figma, Cuckoo and learned the basic principles of                designs of sitemaps and wireframes and learned about the github platform , How to make                 repository and push the code and files in it.
