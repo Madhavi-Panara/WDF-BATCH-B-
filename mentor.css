@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fc;
+    color: #26384a;
+}
+
+.navbar {
+    width: 100%;
+    background-color: white;
+    padding: 15px 25px;
+    box-shadow: 0 2px 10px #d6dce5;
+}
+
+.navbar td {
+    padding: 10px;
+}
+
+.nav-link {
+    display: inline-block;
+    color: #173b6c !important;
+    background-color: #eaf1f8;
+    text-decoration: none;
+    padding: 9px 14px;
+    margin: 3px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #173b6c;
+    color: white !important;
+    transform: scale(1.08);
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #d5e0eb;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.mentor-title {
+    color: #173b6c;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+.mentor-description {
+    color: #61758a;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.mentor-table {
+    background-color: white;
+    border: none;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 18px #d1dbe6;
+}
+
+.table-heading {
+    background-color: #173b6c;
+    color: white;
+    padding: 18px;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.mentor-table td {
+    padding: 16px;
+    border-bottom: 1px solid #e0e6ed;
+    font-size: 16px;
+}
+
+.mentor-table td b {
+    color: #173b6c;
+}
+
+.mentor-photo {
+    background-color: #eaf1f8;
+}
+
+.mentor-photo img {
+    border-radius: 50%;
+    border: 5px solid #dbe7f3;
+    transition: 0.3s;
+}
+
+.mentor-photo img:hover {
+    transform: scale(1.06);
+}
+
+.support-title {
+    color: #173b6c;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-top: 40px;
+}
+
+.support-table {
+    background-color: white;
+    border: none;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 18px #d1dbe6;
+}
+
+.support-table th {
+    background-color: #285a96;
+    color: white;
+    padding: 15px;
+}
+
+.support-table td {
+    padding: 15px;
+    border-bottom: 1px solid #e0e6ed;
+}
+
+.support-table tr:not(:first-child):hover {
+    background-color: #eaf1f8;
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+
+.support-table td:first-child {
+    color: #173b6c;
+    font-weight: bold;
+}

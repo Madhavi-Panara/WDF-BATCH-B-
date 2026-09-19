@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    color: #26384a;
+}
+
+.navbar {
+    width: 100%;
+    background-color: white;
+    padding: 15px 25px;
+    box-shadow: 0 2px 10px #d6dce5;
+}
+
+.navbar td {
+    padding: 10px;
+}
+
+.nav-link {
+    display: inline-block;
+    color: #173b6c !important;
+    background-color: #eaf1f8;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin: 3px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #173b6c;
+    color: white !important;
+    transform: scale(1.08);
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #d5e0eb;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.career-title {
+    color: #173b6c;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 42px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+.section-title {
+    color: #173b6c;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+.placement-table {
+    background-color: white;
+    width: 50%;
+    border: none;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 18px #d1dbe6;
+}
+
+.placement-table th {
+    background-color: #285a96;
+    color: white;
+    padding: 17px;
+    font-size: 17px;
+}
+
+.placement-table td {
+    padding: 16px;
+    border-bottom: 1px solid #e0e6ed;
+}
+
+.placement-table td:first-child {
+    color: #173b6c;
+}
+
+.placement-table td:last-child {
+    color: #285a96;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.placement-table tr:not(:first-child):hover {
+    background-color: #eaf1f8;
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+.company-table {
+    background-color: white;
+    width: 85%;
+    border: none;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 18px #d1dbe6;
+}
+
+.company-table th {
+    background-color: #173b6c;
+    color: white;
+    padding: 17px;
+    font-size: 16px;
+}
+
+.company-table td {
+    padding: 18px;
+    border-bottom: 1px solid #e0e6ed;
+}
+
+.company-table tr:not(:first-child):hover {
+    background-color: #eaf1f8;
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+
+.company-table td:first-child {
+    color: #173b6c;
+    font-size: 17px;
+}
+
+.company-table td:last-child {
+    color: #285a96;
+    font-weight: bold;
+}
+
+.company-table img {
+    border-radius: 8px;
+    padding: 6px;
+    background-color: #f5f8fc;
+    box-shadow: 0 3px 8px #d6dfe9;
+    transition: 0.3s;
+}
+
+.company-table img:hover {
+    transform: scale(1.15);
+    box-shadow: 0 5px 12px #c3cfdb;
+}
