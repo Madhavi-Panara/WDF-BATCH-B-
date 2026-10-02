@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "name": "Basic UI & UX Design Workshop",
+        "date": "2026-08-15",
+        "category": "Workshop",
+        "location": "Design Lab",
+        "description": "Learn the basics of user interface and user experience design.",
+        "image": "event1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Digital Education Workshop",
+        "date": "2026-08-20",
+        "category": "Workshop",
+        "location": "Seminar Hall",
+        "description": "Discover new digital tools and technologies for better learning.",
+        "image": "event2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Learning Network Webinar",
+        "date": "2026-08-25",
+        "category": "Technical",
+        "location": "Online",
+        "description": "Join an interesting webinar and improve your learning skills.",
+        "image": "event3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Coding Competition",
+        "date": "2026-08-30",
+        "category": "Technical",
+        "location": "Programming Lab",
+        "description": "Show your programming skills and compete with other students.",
+        "image": "event4.png"
+    },
+    {
+        "id": 5,
+        "name": "College Cultural Fest",
+        "date": "2026-09-05",
+        "category": "Cultural",
+        "location": "Main Auditorium",
+        "description": "Enjoy music, dance, art and exciting cultural activities.",
+        "image": "event5.png"
+    },
+    {
+        "id": 6,
+        "name": "Book Reading Session",
+        "date": "2026-09-10",
+        "category": "Cultural",
+        "location": "College Library",
+        "description": "Take part in an interesting book reading and discussion session.",
+        "image": "event6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "AI & Machine Learning Seminar",
+        "date": "2026-09-15",
+        "category": "Technical",
+        "location": "Seminar Hall",
+        "description": "Learn about artificial intelligence and machine learning concepts.",
+        "image": "event7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Football Tournament",
+        "date": "2026-09-20",
+        "category": "Sports",
+        "location": "College Ground",
+        "description": "Participate in an exciting inter-department football tournament.",
+        "image": "event8.png"
+    },
+    {
+        "id": 9,
+        "name": "Resume Building Workshop",
+        "date": "2026-09-25",
+        "category": "Workshop",
+        "location": "Career Centre",
+        "description": "Learn how to create an effective resume for internships and jobs.",
+        "image": "event9.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Dance Competition",
+        "date": "2026-10-01",
+        "category": "Cultural",
+        "location": "Main Auditorium",
+        "description": "Show your talent through solo and group dance performances.",
+        "image": "event10.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Cyber Security Awareness",
+        "date": "2026-10-05",
+        "category": "Technical",
+        "location": "Seminar Hall",
+        "description": "Learn about cyber threats, online safety and secure digital practices.",
+        "image": "event11.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Basketball Tournament",
+        "date": "2026-10-10",
+        "category": "Sports",
+        "location": "Basketball Court",
+        "description": "Students compete in an exciting basketball tournament.",
+        "image": "event12.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Java Programming Workshop",
+        "date": "2026-10-15",
+        "category": "Technical",
+        "location": "Programming Lab",
+        "description": "Practice Java programming concepts through hands-on activities.",
+        "image": "event13.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Photography Workshop",
+        "date": "2026-10-20",
+        "category": "Workshop",
+        "location": "Media Room",
+        "description": "Learn basic photography techniques and creative composition.",
+        "image": "event14.jpeg"
+    },
+    {
+        "id": 15,
+        "name": "Badminton Championship",
+        "date": "2026-10-25",
+        "category": "Sports",
+        "location": "Indoor Sports Complex",
+        "description": "Students compete in the annual college badminton championship.",
+        "image": "event15.jpg"
+    }
+]

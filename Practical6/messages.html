@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Student Portal - Events</title>
+    <link rel="stylesheet" href="messages.css">
+</head>
+
+<body>
+
+<header class="topbar">
+
+    <div class="portal-name">
+        Student Portal
+    </div>
+
+    <nav class="navigation">
+        <a href="studentportal.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="courses.html">Courses</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="resourses.html">Resources</a>
+        <a href="messages.html" class="active">Messages</a>
+    </nav>
+
+</header>
+
+
+<main class="events-container">
+
+    <section class="event-heading">
+        <p class="heading-small">CAMPUS ACTIVITIES</p>
+        <h1>Our Events</h1>
+        <p>
+            Explore the latest events and activities happening in our college.
+        </p>
+    </section>
+    
+    <section class="event-controls">
+
+    <input type="text" id="search" placeholder="Search events...">
+
+    <select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="Technical">Technical</option>
+        <option value="Workshop">Workshop</option>
+        <option value="Cultural">Cultural</option>
+        <option value="Sports">Sports</option>
+    </select>
+
+    <select id="sortBy">
+    <option value="default">Sort By</option>
+    <option value="nameAsc">Name A-Z</option>
+    <option value="nameDesc">Name Z-A</option>
+    <option value="date">Date</option>
+</select>
+
+</section>
+
+<p id="loading">Loading events...</p>
+<p id="error"></p>
+
+    <section class="event-grid" id="eventGrid">
+    </section>
+
+<div id="pagination"></div>
+    </section>
+</main>
+
+<script src="messages.js"></script>
+
+</body>
+</html>

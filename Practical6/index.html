@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <p class="small-title">STUDENT PORTAL</p>
+            <h1>Upcoming Events</h1>
+            <p class="header-text">
+                Discover workshops, competitions, cultural programs and sports events happening on campus.
+            </p>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="even.png" alt="Student Event">
+        <div class="hero-content">
+            <span>Campus Life</span>
+            <h2>Learn. Participate. Experience.</h2>
+            <p>
+                Explore exciting events and activities designed for students.
+            </p>
+        </div>
+    </section>
+
+    <section class="events-section">
+
+        <div class="section-heading">
+            <div>
+                <p class="section-label">EXPLORE</p>
+                <h2>Find Your Event</h2>
+            </div>
+            <p class="event-count">Student Events 2026</p>
+        </div>
+
+        <div class="controls">
+            <input type="text" id="search" placeholder="🔍 Search events...">
+
+            <select id="categoryFilter">
+                <option value="all">All Categories</option>
+                <option value="Technical">Technical</option>
+                <option value="Cultural">Cultural</option>
+                <option value="Sports">Sports</option>
+                <option value="Workshop">Workshop</option>
+            </select>
+
+            <select id="sortBy">
+                <option value="default">Sort By</option>
+                <option value="nameAsc">Name A-Z</option>
+                <option value="nameDesc">Name Z-A</option>
+                <option value="date">Date</option>
+            </select>
+        </div>
+
+        <p id="loading">Loading events...</p>
+        <p id="error"></p>
+
+        <div id="eventContainer"></div>
+
+        <div id="pagination"></div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Student Portal | Student Events</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
