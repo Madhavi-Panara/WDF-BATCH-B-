@@ -1,0 +1,152 @@
+
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin:0;
+    padding:30px;
+    font-family:Arial,sans-serif;
+    background:#f5f7fa;
+    color:#263445;
+}
+
+.container {
+    max-width:1200px;
+    margin:auto;
+}
+
+h1 {
+    margin-bottom:8px;
+}
+
+.subtitle {
+    color:#667085;
+    margin-bottom:25px;
+}
+
+.panel {
+    background:#fff;
+    padding:24px;
+    margin-bottom:25px;
+    border:1px solid #e0e5eb;
+    border-radius:10px;
+}
+
+h2 {
+    margin-top:0;
+    margin-bottom:20px;
+}
+
+label {
+    display:block;
+    margin:14px 0 7px;
+    font-weight:600;
+}
+
+input,select,textarea {
+    width:100%;
+    padding:11px;
+    border:1px solid #ccd3dc;
+    border-radius:5px;
+    font:inherit;
+}
+
+button {
+    padding:10px 16px;
+    margin-top:16px;
+    border:1px solid #ccd3dc;
+    border-radius:5px;
+    background:#fff;
+    cursor:pointer;
+}
+
+button:hover {
+    background:#edf1f5;
+}
+
+.filters {
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr auto auto;
+    gap:10px;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.filters button {
+    margin:0;
+}
+
+a {
+    color:#285a96;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+.table-wrap {
+    overflow-x:auto;
+}
+
+table {
+    width:100%;
+    border-collapse:collapse;
+    background:#fff;
+}
+
+th,td {
+    padding:12px;
+    border-bottom:1px solid #e0e5eb;
+    text-align:left;
+    white-space:nowrap;
+}
+
+th {
+    background:#edf1f5;
+}
+
+.poster {
+    width:65px;
+    height:65px;
+    object-fit:cover;
+    border-radius:5px;
+}
+
+td form {
+    display:inline;
+}
+
+td button {
+    margin:5px 0 0;
+}
+
+@media(max-width:800px) {
+    body {
+        padding:15px;
+    }
+
+    .filters {
+        grid-template-columns:1fr;
+    }
+}
+
+.notice {
+    padding:12px 16px;
+    margin:15px 0;
+    border-radius:6px;
+    font-weight:600;
+}
+
+.notice.success {
+    background:#edf6ef;
+    color:#285b35;
+    border:1px solid #cfe3d3;
+}
+
+.notice.error {
+    background:#fff0f0;
+    color:#a12626;
+    border:1px solid #efcccc;
+}
